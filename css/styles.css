@@ -10,13 +10,13 @@
 }
 
 .navegador a:hover {
-    background: -webkit-linear-gradient(90deg, rgba(108, 205, 230, 1) 32%, rgba(231, 101, 226, 1) 60%);
+    background: -webkit-linear-gradient(90deg, rgba(35,52,231,1) 27%, rgba(231,101,226,1) 95%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 body {
-    margin-top: 80px;
+    margin-top: 70px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     text-align: center;
@@ -44,8 +44,8 @@ body {
 }
 
 .entrenamiento-secundario a:hover {
-    background: rgb(108, 205, 230);
-    background: linear-gradient(90deg, rgba(108, 205, 230, 1) 32%, rgba(231, 101, 226, 1) 95%);
+    background: rgb(35,52,231);
+    background: linear-gradient(90deg, rgba(35,52,231,1) 27%, rgba(231,101,226,1) 95%);
     color: whitesmoke;
 }
 
@@ -402,6 +402,7 @@ aside {
 
     .navegador {
         font-size: 18px;
-        border: 1px black solid;
+        border: 2px black solid;
+        padding: 5px;
     }
 }
