@@ -7,6 +7,9 @@
     background-color: rgba(215, 212, 212, 0.95);
     font-weight: bold;
     border: 2px black solid;
+    -webkit-box-shadow: inset -1px -1px 80px 10px rgba(66, 68, 90, 1);
+-moz-box-shadow: inset -1px -1px 80px 10px rgba(66, 68, 90, 1);
+box-shadow: inset -1px -1px 80px 10px rgba(66, 68, 90, 1);
 }
 
 .navegador a:hover {
@@ -158,6 +161,9 @@ footer {
     padding-bottom: 70px;
     background-color: rgba(215, 212, 212, 0.85);
     width: 100%;
+    -webkit-box-shadow: inset -1px -1px 80px 10px rgba(66, 68, 90, 1);
+    -moz-box-shadow: inset -1px -1px 80px 10px rgba(66, 68, 90, 1);
+    box-shadow: inset -1px -1px 80px 10px rgba(66, 68, 90, 1);
 }
 
 .ubicacion {
