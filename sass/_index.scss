@@ -1,0 +1,76 @@
+.quienes_somos{
+    color: whitesmoke;
+    -webkit-box-shadow: inset 0px 0px 51px 5px rgba(47, 63, 235, 1);
+    -moz-box-shadow: inset 0px 0px 51px 5px rgba(47, 63, 235, 1);
+    box-shadow: inset 0px 0px 51px 5px rgba(47, 63, 235, 1);
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 80vh;
+    background-color: black;
+    h1{
+        font-size: 40px;
+    }
+}
+
+.contenido-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    a {
+    margin: 5px;
+    padding: 5%;
+    background-color: silver;
+    color: black;
+    font-size: 38px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+    ;
+    &:visited {
+        text-decoration: none;
+        padding: 10px;
+        background-color: silver;
+        vertical-align: middle;
+    }
+}
+}
+.subte {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.otras-paginas {
+    margin: 20px;
+}
+
+main {
+    grid-area: main;
+}
+
+article.principal {
+    grid-area: principal;
+}
+
+article.secundario {
+    grid-area: secundario;
+}
+
+aside {
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
+
+.contenedor-grid {
+    background-color: whitesmoke;
+    margin-bottom: 0.5rem;
+    display: grid;
+    grid-template-areas:
+        "main"
+        "principal"
+        "secundario"
+        "aside"
+        "footer";
+}

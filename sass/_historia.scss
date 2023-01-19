@@ -1,0 +1,19 @@
+.historia-container {
+    text-align: center;
+}
+.historia-principal {
+    padding: 5%;
+    background-color: rgb(191, 191, 191, 0.65);
+    width: 100%;
+    height: auto;
+    ;
+}
+.border-personajes {
+    border: 1px black solid;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    button:hover {
+        border: 3px solid;
+        border-image: linear-gradient(45deg, blue, purple) 1
+    }
+}
