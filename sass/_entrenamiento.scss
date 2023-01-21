@@ -1,9 +1,16 @@
 .entrenamiento-principal {
     background-color: rgba(215, 212, 212, 0.85);
+    @media (min-width:768px) {
+        background-color: rgb(0, 0, 0, 0.85);
+        color: whitesmoke;
+        -webkit-box-shadow: inset 0px 0px 50px -1px rgba(239, 224, 30, 1);
+        -moz-box-shadow: inset 0px 0px 50px -1px rgba(239, 224, 30, 1);
+        box-shadow: inset 0px 0px 50px -1px rgba(239, 224, 30, 1);
+    }
 }
 
 .entrenamiento-secundario a:hover {
     background: rgb(35,52,231);
-    background: linear-gradient(90deg, rgba(35,52,231,1) 27%, rgba(231,101,226,1) 95%);
+    background: linear-gradient(90deg, rgba(35,52,231,0.65) 27%, rgba(231,101,226,0.65) 95%);
     color: whitesmoke;
 }
