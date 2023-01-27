@@ -4,9 +4,17 @@
 @import "historia";
 @import "entrenamiento";
 
+@mixin fondo {
+    color: black;
+    -webkit-box-shadow: inset 0px 0px 33px 16px rgba(66, 68, 90, 1);
+    -moz-box-shadow: inset 0px 0px 33px 16px rgba(66, 68, 90, 1);
+    box-shadow: inset 0px 0px 33px 16px rgba(66, 68, 90, 1);
+}
+
 .formulario {
     margin-bottom: 30px;
     margin-top: 20px;
+    @include fondo;
 }
 .fondo {
     background-color: rgb(192, 192, 192, 0.75);
@@ -19,7 +27,8 @@
 .icon {
     width: auto;
     max-height: 100%;
-    margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #solodeportes {
@@ -127,10 +136,5 @@
         padding-top: 20px;
         border: 4px solid;
         border-radius: 30px;
-    }
-.navegador {
-        font-size: 18px;
-        border: 2px black solid;
-        padding: 5px;
     }
     }

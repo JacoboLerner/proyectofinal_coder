@@ -1,12 +1,17 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .navegador {
   background-color: rgba(215, 212, 212, 0.95);
   font-weight: bold;
+  width: 100%;
   border: 2px black solid;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
   box-shadow: inset -1px -1px 80px 10px rgb(66, 68, 90);
 }
 .navegador a:hover {
@@ -14,9 +19,20 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media (min-width: 1024px) {
+  .navegador {
+    font-size: 18px;
+    border: 2px black solid;
+    padding: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
 
 body {
-  width: 100vw;
+  width: 100%;
   margin-top: 70px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 20px;
@@ -67,9 +83,23 @@ body {
     text-justify: inter-word;
   }
 }
+@media (min-width: 920px) {
+  .parafo {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  .parafo {
+    font-size: 26px;
+  }
+}
+@media (min-width: 1400px) {
+  .parafo {
+    font-size: 30px;
+  }
+}
 
 .redes {
-  margin: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -100,6 +130,9 @@ footer {
   box-shadow: inset 0px 0px 51px 5px rgb(47, 63, 235);
   padding-left: 10px;
   padding-right: 10px;
+  width: 100vw;
+  margin: 0px;
+  margin-right: 0px;
   height: 80vh;
   background-color: black;
 }
@@ -251,18 +284,36 @@ footer {
   }
 }
 
-.historia-container {
-  text-align: center;
+.historia-contenedor {
   box-shadow: inset 0px 0px 51px 5px rgb(47, 63, 235);
   line-height: 35px;
-  letter-spacing: 5px;
-  word-spacing: 4px;
+  letter-spacing: 3px;
+  word-spacing: 2px;
 }
-@media (max-width: 900px) {
-  .historia-container {
-    line-height: 40px;
-    letter-spacing: 0px;
-    word-spacing: 0px;
+.historia-contenedor img {
+  width: 100%;
+  height: 50vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (min-width: 520px) {
+  .historia-contenedor img {
+    height: 55vw;
+  }
+}
+@media (min-width: 768px) {
+  .historia-contenedor img {
+    height: 30vw;
+  }
+}
+@media (min-width: 1024px) {
+  .historia-contenedor img {
+    height: 30vw;
+  }
+}
+@media (min-width: 1400px) {
+  .historia-contenedor img {
+    height: 20vw;
   }
 }
 
@@ -300,10 +351,17 @@ footer {
 .titulos-header-historia {
   font-size: 28px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-right: 0px;
 }
 @media (min-width: 560px) {
   .titulos-header-historia {
     font-size: 38px;
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  .titulos-header-historia {
+    font-size: 44px;
   }
 }
 
@@ -327,6 +385,8 @@ footer {
 .formulario {
   margin-bottom: 30px;
   margin-top: 20px;
+  color: black;
+  box-shadow: inset 0px 0px 33px 16px rgb(66, 68, 90);
 }
 
 .fondo {
@@ -340,7 +400,8 @@ footer {
 .icon {
   width: auto;
   max-height: 100%;
-  margin: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 #solodeportes {
@@ -454,10 +515,5 @@ footer {
     padding-top: 20px;
     border: 4px solid;
     border-radius: 30px;
-  }
-  .navegador {
-    font-size: 18px;
-    border: 2px black solid;
-    padding: 5px;
   }
 }/*# sourceMappingURL=style.css.map */
