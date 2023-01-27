@@ -322,6 +322,8 @@ footer {
   background-color: rgba(191, 191, 191, 0.65);
   width: 100%;
   height: auto;
+  line-height: 30px;
+  letter-spacing: 1px;
   box-shadow: inset 0px 0px 50px 0px rgb(107, 0, 173);
 }
 @media (min-width: 768px) {
@@ -351,6 +353,7 @@ footer {
 .titulos-header-historia {
   font-size: 28px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: left;
   margin-right: 0px;
 }
 @media (min-width: 560px) {
@@ -382,11 +385,46 @@ footer {
   color: whitesmoke;
 }
 
+.titulos-header-entrenamiento {
+  font-size: 28px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 20px;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+@media (min-width: 560px) {
+  .titulos-header-entrenamiento {
+    font-size: 38px;
+  }
+}
+@media (min-width: 768px) {
+  .titulos-header-entrenamiento {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .titulos-header-entrenamiento {
+    font-size: 45px;
+  }
+}
+@media (min-width: 1400px) {
+  .titulos-header-entrenamiento {
+    font-size: 48px;
+  }
+}
+
 .formulario {
+  width: 89vw;
   margin-bottom: 30px;
   margin-top: 20px;
   color: black;
   box-shadow: inset 0px 0px 33px 16px rgb(66, 68, 90);
+}
+@media (min-width: 560px) {
+  .formulario {
+    width: 100%;
+  }
 }
 
 .fondo {

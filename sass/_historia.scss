@@ -30,6 +30,8 @@
     background-color: rgb(191, 191, 191, 0.65);
     width: 100%;
     height: auto;
+    line-height: 30px;
+    letter-spacing: 1px;
     -webkit-box-shadow: inset 0px 0px 50px 0px rgba(107, 0, 173, 1);
     -moz-box-shadow: inset 0px 0px 50px 0px rgba(107, 0, 173, 1);
     box-shadow: inset 0px 0px 50px 0px rgba(107, 0, 173, 1);
@@ -54,6 +56,7 @@
 .titulos-header-historia {
         font-size: 28px;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: left;
         @media (min-width:560px){
             font-size: 38px;
             text-align: center;

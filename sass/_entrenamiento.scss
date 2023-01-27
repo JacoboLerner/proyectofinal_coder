@@ -14,3 +14,24 @@
     background: linear-gradient(90deg, rgba(35,52,231,0.65) 27%, rgba(231,101,226,0.65) 95%);
     color: whitesmoke;
 }
+
+.titulos-header-entrenamiento{
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 20px;
+    margin-top: 20px;
+    padding-top: 30px;
+    @media (min-width:560px){
+        font-size: 38px;
+    }
+    @media (min-width:768px){
+        text-align: center;
+        font-size: 40px;
+    }
+    @media (min-width:1024px){
+        font-size: 45px;
+    }
+    @media (min-width:1400px){
+        font-size: 48px;
+    }
+}
