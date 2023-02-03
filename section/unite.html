@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Forma parte del equipo uniendote a la plataforma runner mas grande de la Argentina">
-  <meta name="keywords" content="Runnning, Deporte, Correr, Entrenamientos, Mail, Conocernos, Subscribite ">
+  <meta name="keywords" content="Runnning, Deporte, Correr, Entrenamientos, Mail, Conocernos, Subscribite, Teams ">
   <title>Forma parte del equipo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -14,7 +14,7 @@
   <link rel="shortcut icon" href="../img/fluor_running.svg" alt="Hombre fluor que corre">
 </head>
 
-<body>
+<body class="body-unite">
   <header>
     <nav class="navbar navbar-expand-lg navbar-light navegador fixed-top">
       <div class="container-fluid">
@@ -36,12 +36,45 @@
       </div>
     </nav>
   </header>
-  <main class="container">
-    <h1 class="titulos-header shadow p-3 pt-4 mb-5 bg-body-tertiary rounded">Proximamente: Teams!!!!!</h1>
+  <main class="container text-center shadow p-3 pt-3 px-4 rounded">
+    <h1 class="titulos-header pt-2 pb-2">Teams!</h1>
+    <h2  class="titulos-header pt-2">  Unite a un equipo y desafia a los otros en km recorridos!</h2>
+    <div class="teams row column-gap-1 titulos-header pb-3 rounded-5 px-4 justify-content-evenly h-100">
+      <div class="col-md-5 col-xl-3 bg-light rounded-5 pt-2 mb-3 pb-2 ">
+        <h3 class="pt-2 text-center azul rounded-5">Azul</h3>
+        <p class="fondo-unite rounded-4">
+          Zonas: Palermo, Belgrano, Nuñez, Recoleta, Colegiales, Saavedra.
+        </p>
+        <p class=" fondo-unite rounded-4">
+          Kilometros recorridos: 23,454km.
+        </p>
+        <a href="#Unite"  class="btn btn-dark">Unirme</a>
+      </div>
+      <div class="col-md-5 col-xl-3 bg-light rounded-5 pt-2 mb-3 pb-2">
+        <h3 class="pt-2 text-center verde rounded-5">Violeta</h3>
+        <p class=" fondo-unite  rounded-4">
+          Zonas: Floresta, Caballito,Flores, Parque Patricios, Almagro, Monte Castro.
+        </p>
+        <p class=" fondo-unite  rounded-4">
+          Kilometros recorridos: 26,743km.
+        </p>
+        <a href="#Unite" class="btn btn-dark">Unirme</a>
+      </div>
+      <div class="col-xl-3 bg-light rounded-5 pt-2 mb-3 pb-2">
+        <h3 class="pt-2 text-center rojo rounded-5">Fucsia</h3>
+        <p class="  fondo-unite  rounded-4">
+          Zonas: Villa Pueyrredon, Devoto, Villa Del Parque, Agronomia, Paternal.
+        </p>
+        <p class=" fondo-unite  rounded-4">
+          Kilometros recorridos: 19,454km.
+        </p>
+        <a href="#Unite" class="btn btn-dark ">Unirme</a>
+      </div>
+    </div>
   </main>
-  <section class="formulario container rounded-5 p-3">
+  <section id="Unite" class="formulario container rounded-5 p-3">
     <form action="https://formspree.io/f/mgeqnrak" method="POST" target="_blank">
-      <h2 class="titulos-header">Subscribite!</h2>
+      <h2 class="titulos-header">Sumate!!</h2>
       <div class="container-fluid ">
         <div class="row g-3 mt-2">
           <div class="input-group mb-3">
@@ -52,6 +85,11 @@
           <div class="input-group mb-3">
             <span class="input-group-text">Apellido</span>
             <input type="text" class="form-control" name="apellido" placeholder="Ejemplo: Perez" aria-label="Apellido"
+              fdprocessedid="ya4nq">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text">Team de Elección</span>
+            <input type="text" class="form-control" name="Team" placeholder="Ejemplo: Azul" aria-label="Team"
               fdprocessedid="ya4nq">
           </div>
         </div>
@@ -74,12 +112,12 @@
         <div class="row mt-2">
           <div class="input-group">
             <span class="input-group-text">¡Contanos algo sobre vos!</span>
-            <textarea class="form-control" name="mensaje" aria-label="With textarea" rows="6"></textarea>
+            <textarea class="form-control" name="mensaje" aria-label="With textarea" rows="4"></textarea>
           </div>
         </div>
-        <div class="row g-3 mt-2 align-items-center p-3">
+        <div class="row g-3 mt-2 align-items-centext-center p-3">
           <div class="col text-center">
-            <button type="submit"  class="btn btn-dark" fdprocessedid="0l5cyu">Enviar</button>
+            <button type="submit" class="btn btn-dark" fdprocessedid="0l5cyu">Enviar</button>
           </div>
           <div class="col text-center">
             <button type="reset" class="btn btn-dark" fdprocessedid="0l5cyu">Resetear</button>
