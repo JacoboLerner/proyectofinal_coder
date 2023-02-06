@@ -7,23 +7,30 @@
     word-spacing: 2px;
     img{
         width: 100%;
-        height: 50vw;
-        object-fit: cover;
+        height: auto;
+        object-fit: contain;
         @media (min-width:520px){
-            height: 55vw;
+            height: 100%;
+            width: 100%;
             }
         @media (min-width:768px){
-            height: 30vw;
+            height: 100%;
+            width: 100%;
             }
         @media (min-width:1024px){
-            height: 30vw;
+            height: 100%;
+            width: 100%;
             }
         @media (min-width:1400px){
-                height: 20vw;
+            height: 100%;
+            width: 100%;
             }
         }   
     }
-
+    
+    .carta{
+        height:100%;
+        } 
 
 .historia-principal {
     padding: 5%;

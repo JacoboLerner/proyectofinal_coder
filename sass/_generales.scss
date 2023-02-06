@@ -17,7 +17,7 @@
     box-shadow: inset -1px -1px 80px 10px rgba(66, 68, 90, 1);
     a:hover {
         background: -webkit-linear-gradient(90deg, rgba(35,52,231,1) 27%, rgba(231,101,226,1) 95%);
-        -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     @media (min-width:1024px){
@@ -112,8 +112,7 @@ footer {
     padding-bottom: 40px;
     background-color: rgba(215, 212, 212, 0.85);
     width: 100%;
-    -webkit-box-shadow: inset -1px -1px 80px 10px rgba(66, 68, 90, 1);
-    -moz-box-shadow: inset -1px -1px 80px 10px rgba(66, 68, 90, 1);
     box-shadow: inset -1px -1px 80px 10px rgba(66, 68, 90, 1);
-
 }
+
+
